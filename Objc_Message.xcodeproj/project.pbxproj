@@ -14,6 +14,8 @@
 		AA7269FB2029526400C051CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7269FA2029526400C051CF /* Assets.xcassets */; };
 		AA7269FE2029526400C051CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7269FC2029526400C051CF /* LaunchScreen.storyboard */; };
 		AA726A012029526400C051CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA726A002029526400C051CF /* main.m */; };
+		AA726A092029530100C051CF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA726A082029530100C051CF /* Person.m */; };
+		AA726A0C20295E7E00C051CF /* NSURL+YAYUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = AA726A0B20295E7E00C051CF /* NSURL+YAYUrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		AA7269FD2029526400C051CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7269FF2029526400C051CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA726A002029526400C051CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA726A072029530100C051CF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA726A082029530100C051CF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA726A0A20295E7E00C051CF /* NSURL+YAYUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+YAYUrl.h"; sourceTree = "<group>"; };
+		AA726A0B20295E7E00C051CF /* NSURL+YAYUrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+YAYUrl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				AA7269EF2029526300C051CF /* AppDelegate.m */,
 				AA7269F12029526300C051CF /* ViewController.h */,
 				AA7269F22029526300C051CF /* ViewController.m */,
+				AA726A072029530100C051CF /* Person.h */,
+				AA726A082029530100C051CF /* Person.m */,
+				AA726A0A20295E7E00C051CF /* NSURL+YAYUrl.h */,
+				AA726A0B20295E7E00C051CF /* NSURL+YAYUrl.m */,
 				AA7269F42029526300C051CF /* Main.storyboard */,
 				AA7269FA2029526400C051CF /* Assets.xcassets */,
 				AA7269FC2029526400C051CF /* LaunchScreen.storyboard */,
@@ -147,7 +157,9 @@
 			files = (
 				AA7269F32029526300C051CF /* ViewController.m in Sources */,
 				AA7269F92029526300C051CF /* Objc_Message.xcdatamodeld in Sources */,
+				AA726A092029530100C051CF /* Person.m in Sources */,
 				AA726A012029526400C051CF /* main.m in Sources */,
+				AA726A0C20295E7E00C051CF /* NSURL+YAYUrl.m in Sources */,
 				AA7269F02029526300C051CF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CVJUGF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Objc_Message/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycom.yay.Objc-Message";
@@ -298,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M55CVJUGF4;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = Objc_Message/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycom.yay.Objc-Message";
